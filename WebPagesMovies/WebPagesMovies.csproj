@@ -102,11 +102,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\WebPagesMovies.mdf" />
+    <Content Include="App_Data\WebPagesMovies_log.ldf">
+      <DependentUpon>WebPagesMovies.mdf</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="HelloWorld.cshtml" />
     <Content Include="TestRazor.cshtml" />
     <Content Include="TestRazorPart2.cshtml" />
     <Content Include="GravatarTest.cshtml" />
+    <Content Include="Movies.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
