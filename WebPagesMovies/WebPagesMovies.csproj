@@ -112,6 +112,7 @@
     <Content Include="TestRazorPart2.cshtml" />
     <Content Include="GravatarTest.cshtml" />
     <Content Include="Movies.cshtml" />
+    <Content Include="AddMovie.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
