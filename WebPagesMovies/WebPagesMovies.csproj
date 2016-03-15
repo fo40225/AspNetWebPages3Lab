@@ -114,6 +114,7 @@
     <Content Include="Movies.cshtml" />
     <Content Include="AddMovie.cshtml" />
     <Content Include="EditMovie.cshtml" />
+    <Content Include="DeleteMovie.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
