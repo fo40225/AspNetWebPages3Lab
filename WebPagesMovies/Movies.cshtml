@@ -1,4 +1,7 @@
 ﻿@{
+    Layout = "~/_Layout.cshtml";
+    Page.Title = "List Movies";
+
     var db = Database.Open("WebPagesMovies");
     var selectCommand = "SELECT * FROM Movies";
     var searchTerm = "";

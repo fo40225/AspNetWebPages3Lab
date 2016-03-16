@@ -108,6 +108,7 @@
     </Content>
     <Content Include="packages.config" />
     <Content Include="HelloWorld.cshtml" />
+    <Content Include="Styles\Movies.css" />
     <Content Include="TestRazor.cshtml" />
     <Content Include="TestRazorPart2.cshtml" />
     <Content Include="GravatarTest.cshtml" />
@@ -121,6 +122,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -128,6 +130,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
