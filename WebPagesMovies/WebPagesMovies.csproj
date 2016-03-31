@@ -116,6 +116,8 @@
     <Content Include="AddMovie.cshtml" />
     <Content Include="EditMovie.cshtml" />
     <Content Include="DeleteMovie.cshtml" />
+    <Content Include="Default.cshtml" />
+    <None Include="Properties\PublishProfiles\WebPagesMovies - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
